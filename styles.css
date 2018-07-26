@@ -24,11 +24,17 @@ H1 {
 }
 main {
   padding-top: 15px;
+  display: grid;
+  grid-template-areas:
+    'aside article article'
+    'aside footer footer';
+  grid-gap:30px;
 } 
 aside {
-  padding:30px;
-background-color:#d6cbd3
-
+  grid-area:aside;
+  padding: 30px;
+  background-color:#d6cbd3
+  color:white;
 }
 article {
   padding: 34px;
@@ -36,6 +42,12 @@ article {
   color:black;
 }
 footer{
+  grid-area:footer;
+  padding: 30px;
+ background-color:#f4e1d2 
+} 
+  
+  
   padding:30px;
   background-color: #deeaee 
     color:white;
