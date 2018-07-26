@@ -1,3 +1,12 @@
-body(
-  bakground-color: cyan;
+body (
+  background-color: #6b5b95;
+  padding:30px;
+)
+nav(
+  padding:30px;
+  background-color:#bdcebe;
+  position: sticky;
+  top:0;
+  text-shadow: lpx 1px 0 #444;
+  color:white;
 )
