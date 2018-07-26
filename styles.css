@@ -33,7 +33,7 @@ main {
 aside {
   grid-area:aside;
   padding: 30px;
-  background-color:#d6cbd3
+  background-color:#618685
   color:white;
 }
 article {
@@ -44,7 +44,7 @@ article {
 footer{
   grid-area:footer;
   padding: 30px;
- background-color:#618685 
+ background-color: #f4e1d2;
 } 
   
   
