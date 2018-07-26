@@ -31,10 +31,9 @@ main {
   grid-gap:30px;
 } 
 aside {
-  grid-area:aside;
   padding: 30px;
   background-color:#f18973
-  color:white;
+  grid-area: aside;
 }
 article {
   padding: 34px;
