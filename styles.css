@@ -1,12 +1,12 @@
 body (
   background-color: #6b5b95;
-  padding:30px;
+  padding: 30px;
 )
 nav(
-  padding:30px;
-  background-color:#bdcebe;
+  padding: 30px;
+  background-color: #bdcebe;
   position: sticky;
-  top:0;
+  top: 0;
   text-shadow: lpx 1px 0 #444;
   color:white;
 )
